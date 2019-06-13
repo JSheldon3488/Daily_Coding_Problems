@@ -42,7 +42,7 @@ def anagram_indices(w,s):
 def is_anagram(s1,s2):
     return Counter(s1) == Counter(s2)
 
-def anagram_indices(word, s):
+def book_anagram_indices(word, s):
     result = []
     for i in range(len(s) - len(word) + 1):
         window = s[i: i +len(word)]
@@ -58,7 +58,7 @@ def del_if_zero(dict, char):
     if dict[char] == 0:
         del dict[char]
 
-def fast_anagram_indices(word, s):
+def book_fast_anagram_indices(word, s):
     result = []
 
     freq = defaultdict(int)     #This tells the dictionary the values will be ints
