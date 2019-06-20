@@ -6,8 +6,7 @@ Date: 6/19/19
 '''
 Problem Statement: Given the head of a singly linked list, reverse it in-place.
     Ex. [1,2,3,4] returns [4,3,2,1]
-    For these problems we will treat the regular Python list as a linked List and only use linked list operations on it
-
+    
 '''
 '''Node Class used to represent a single linked list'''
 class Node:
@@ -65,6 +64,7 @@ def main():
     print(reverse_LinkedList(Ex1))
     Ex1.next = Node(2)
     Ex1.next.next = Node(3)
+    Ex1.next.next.next = Node(4)
     print(reverse_LinkedList(Ex1))
 
 
