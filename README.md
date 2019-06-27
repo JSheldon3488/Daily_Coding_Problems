@@ -16,8 +16,8 @@ The general format will be:
 
 ### I. Data Structures
 1. [Arrays](https://github.com/JSheldon3488/Daily_Coding_Problems/tree/master/Chapter1_Arrays)
-2. [Strings]
-3. [Linked Lists]
+2. [Strings](https://github.com/JSheldon3488/Daily_Coding_Problems/tree/master/Chapter2_Strings)
+3. [Linked Lists]()
 4. Stacks and Queues
 5. Hash Tables
 6. Trees
