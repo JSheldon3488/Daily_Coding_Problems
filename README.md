@@ -15,9 +15,9 @@ The general format will be:
 ## Table of Contents
 
 ### I. Data Structures
-1. Arrays[link]
-2. Strings[link]
-3. Linked Lists[link]
+1. [Arrays]
+2. [Strings]
+3. [Linked Lists]
 4. Stacks and Queues
 5. Hash Tables
 6. Trees
