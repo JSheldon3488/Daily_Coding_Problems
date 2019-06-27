@@ -17,7 +17,7 @@ The general format will be:
 ### I. Data Structures
 1. [Arrays](https://github.com/JSheldon3488/Daily_Coding_Problems/tree/master/Chapter1_Arrays)
 2. [Strings](https://github.com/JSheldon3488/Daily_Coding_Problems/tree/master/Chapter2_Strings)
-3. [Linked Lists]()
+3. [Linked Lists](https://github.com/JSheldon3488/Daily_Coding_Problems/tree/master/Chapter3_LinkedLists)
 4. Stacks and Queues
 5. Hash Tables
 6. Trees
@@ -28,3 +28,18 @@ The general format will be:
 11. Advanced Data Structures
 
 ### II. Algorithms
+12. Recursion
+13. Dynamic Programming
+14. Backtracking
+15. Sorting and Searching
+16. Pathfinding
+17. Bit Manipulation
+18. Randomized Algorithms
+19. Advanced Algorithms
+
+### III. Applications
+20. Applications
+
+### IV. Design
+21. Data Structure Design
+22. System Design
