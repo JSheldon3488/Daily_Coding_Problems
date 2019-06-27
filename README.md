@@ -15,7 +15,7 @@ The general format will be:
 ## Table of Contents
 
 ### I. Data Structures
-1. [Arrays]
+1. [Arrays](https://github.com/JSheldon3488/Daily_Coding_Problems/tree/master/Chapter1_Arrays)
 2. [Strings]
 3. [Linked Lists]
 4. Stacks and Queues
