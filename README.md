@@ -12,4 +12,19 @@ The general format will be:
 5. Simple Test cases to make sure my solutions work.
 6. A Short Lesson's Learned section to highlight the big takeaways from the problem.
 
+## Table of Contents
 
+### I. Data Structures
+1. Arrays[link]
+2. Strings[link]
+3. Linked Lists[link]
+4. Stacks and Queues
+5. Hash Tables
+6. Trees
+7. Binary Search Trees
+8. Tries
+9. Heaps
+10. Graphs
+11. Advanced Data Structures
+
+### II. Algorithms
