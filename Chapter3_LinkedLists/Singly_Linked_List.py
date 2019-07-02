@@ -43,8 +43,8 @@ class Singly_Linked_List(object):
 
         :return: A string representing the Linked List
         """
-        s = str(self.data)
-        current = self.next
+        s = str(self.head.data)
+        current = self.head.next
         while current != None:
             s += " --> " + str(current.data)
             current = current.next
@@ -109,5 +109,5 @@ class Singly_Linked_List(object):
                 return current
             else:
                 current = current.next
-        
+
         raise ValueError("Data not in List")
