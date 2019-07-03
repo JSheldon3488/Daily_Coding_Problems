@@ -20,7 +20,8 @@ class MaxStack:
 
     Attributes:
         Size: Keeps track of the size of the stack
-        Max: Max value seen so far in the stack
+        max_seen: Max value seen so far in the stack
+        prev_max: Previous Max value seen before current max_seen
     """
 
     def __init__(self):
