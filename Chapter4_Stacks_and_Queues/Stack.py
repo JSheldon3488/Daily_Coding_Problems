@@ -20,7 +20,7 @@ class Stack:
             s += str(self.stack[i])
             if i != 0:
                 s += " --> "
-        s += ")"
+        s += " )"
         return s
 
     def push(self,data):
