@@ -18,7 +18,7 @@ The general format will be:
 1. [Arrays](https://github.com/JSheldon3488/Daily_Coding_Problems/tree/master/Chapter1_Arrays)
 2. [Strings](https://github.com/JSheldon3488/Daily_Coding_Problems/tree/master/Chapter2_Strings)
 3. [Linked Lists](https://github.com/JSheldon3488/Daily_Coding_Problems/tree/master/Chapter3_LinkedLists)
-4. Stacks and Queues
+4. [Stacks and Queues](https://github.com/JSheldon3488/Daily_Coding_Problems/tree/master/Chapter4_Stacks_and_Queues)
 5. Hash Tables
 6. Trees
 7. Binary Search Trees
