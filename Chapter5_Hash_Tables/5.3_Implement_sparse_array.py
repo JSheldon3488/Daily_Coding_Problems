@@ -51,6 +51,10 @@ class SparseArray():
             return
         raise IndexError("Index out of array range")
 
+    def reconstruct(self) -> str:
+        """ turns our SparseArray into a bitstring """
+        return "".join([str(self.sparse_container.get(index,0)) for index in range(self.size)])
+
 
 '''                             Book Solution                            '''
 class SparseArray_book():
@@ -79,7 +83,9 @@ class SparseArray_book():
         return self._dict.get(i, 0)
 
 def main():
-    return
+    bit_array = [1,0,1,0,0,1,1,0,1,0,0,0,0,0,0,0]
+    sparse_array = SparseArray(bit_array,16)
+    assert sparse_array.reconstruct() == "1010011010000000"
 
 if __name__ == '__main__':
     main()
@@ -97,5 +103,6 @@ Lessons Learned:
     * We needed to delete the value if you tried putting a 0 into the sparse array. Any index that has a value 0 should not
         be in the spare_array. ( I think this is for a bit array or something that you can assume 0 if not in array)
     * Dictionaries have a .get method where you can return a default if that index is not in the dictionary
+    * When using .join on an iterable you must have a str instance as the thing you are joining
 '''
 
