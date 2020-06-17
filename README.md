@@ -20,7 +20,7 @@ The general format will be:
 3. [Linked Lists](https://github.com/JSheldon3488/Daily_Coding_Problems/tree/master/Chapter3_LinkedLists)
 4. [Stacks and Queues](https://github.com/JSheldon3488/Daily_Coding_Problems/tree/master/Chapter4_Stacks_and_Queues)
 5. [Hash Tables](https://github.com/JSheldon3488/Daily_Coding_Problems/tree/master/Chapter5_Hash_Tables)
-6. Trees
+6. [Trees](https://github.com/JSheldon3488/Daily_Coding_Problems/tree/master/Chapter6_Trees)
 7. Binary Search Trees
 8. Tries
 9. Heaps
