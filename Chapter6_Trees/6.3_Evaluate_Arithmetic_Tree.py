@@ -53,6 +53,7 @@ def evaluate(root: Node) -> int:
 def main():
     assert evaluate(Node('*', left=Node('+', Node(3), Node(2)), right=Node('+', Node(4), Node(5)))) == 45
     assert evaluate(Node('*', left=Node('+', Node(3), Node(2)), right=Node('+', Node(4), Node(5)))) != 35
+    assert evaluate(Node('*', left=Node('-', Node(3), Node(2)), right=Node('-', Node(4), Node(5)))) == -1
     assert evaluate(Node('/', left=Node('+', Node(3), Node(2)), right=Node('-', Node(5), Node(5)))) == ZeroDivisionError
 
 if __name__ == '__main__':
