@@ -38,8 +38,7 @@ def evaluate(root: Node) -> int:
         return evaluate(root.left) - evaluate(root.right)
     else:
         try:
-            result = evaluate(root.left)/evaluate(root.right)
-            return result
+            return evaluate(root.left)/evaluate(root.right)
         except ZeroDivisionError:
             return ZeroDivisionError
 
