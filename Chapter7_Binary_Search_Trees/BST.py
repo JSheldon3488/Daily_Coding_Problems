@@ -6,6 +6,9 @@ class Node:
         self.left = left
 
 class BST:
+    """ Simple Binary Search Tree Implementation
+    Note: this is not a balanced binary search tree so does not guarantee log(n) operations
+    """
     def __init__(self):
         self.root = None
 
