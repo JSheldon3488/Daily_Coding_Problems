@@ -12,6 +12,18 @@ class BST:
     def __init__(self):
         self.root = None
 
+    def __str__(self):
+        if not self.root:
+            return "Empty Tree"
+        else:
+            return self.print_tree(self.root)
+
+    def print_tree(self, node, level=0):
+        if node is not None:
+            self.print_tree(node.left, level + 1)
+            print(' ' * 4 * level + '->', node.data)
+            self.print_tree(node.right, level + 1)
+
     def insert(self, x):
         if not self.root:
             self.root = Node(x)
