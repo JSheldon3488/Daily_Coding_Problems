@@ -21,3 +21,13 @@ class Trie:
             else:
                 return None
         return trie
+
+    def _elements(self,d):
+        result = []
+        for c,v in d.items():
+            if c == ENDS_HERE:
+                subresult = ['']
+            else:
+                subresult = [c+s for s in self._elements(v)]
+            result.extend(subresult)
+        return result
