@@ -25,9 +25,6 @@ class Trie:
     def _elements(self,d):
         result = []
         for c,v in d.items():
-            if c == ENDS_HERE:
-                subresult = ['']
-            else:
-                subresult = [c+s for s in self._elements(v)]
+            subresult = [''] if c == ENDS_HERE else [c+s for s in self._elements(v)]
             result.extend(subresult)
         return result
