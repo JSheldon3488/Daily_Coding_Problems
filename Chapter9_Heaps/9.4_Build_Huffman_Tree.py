@@ -41,6 +41,9 @@ class Node:
         self.left = left
         self.right = right
 
+    def __str__(self):
+        return f'char: {self.char}, left_char: {self.left.char}, right_char: {self.right.char}'
+
 
 def huffman_tree(frequencies: dict):
     counter = count()
@@ -51,12 +54,12 @@ def huffman_tree(frequencies: dict):
 
     # Pop off two min items off heap, combine, and put back on heap
     while len(heap) > 1:
-        left = heapq.heappop(heap)
-        right = heapq.heappop(heap)
-        combined = (left[0]+right[0], next(counter), Node(char=None, left=left, right=right))
+        f1, _, left = heapq.heappop(heap)
+        f2, _, right = heapq.heappop(heap)
+        combined = (f1 + f2, next(counter), Node(char=None, left=left, right=right))
         heapq.heappush(heap, combined)
 
-    return heap[0] # Just need tuples not heap list
+    return heap[0][2]  # Just need tuples not heap list
 
 
 def create_freq_map(words: List[str]) -> dict:
@@ -67,8 +70,24 @@ def create_freq_map(words: List[str]) -> dict:
     return freq_map
 
 
+def my_encode(node: Node, encoding="", mappings=None):
+    # Base Cases
+    if mappings is None:
+        mappings = {}
+    if not node:
+        return
+    if not node.left and not node.right:
+        mappings[node.char] = encoding
+
+    # Recursive Cases
+    my_encode(node.left, encoding + '0', mappings)
+    my_encode(node.right, encoding + '1', mappings)
+    return mappings
+
 
 '''                             Book Solution                            '''
+
+
 class Node_Book:
     def __init__(self, char, left=None, right=None):
         self.char = char
@@ -85,10 +104,11 @@ def build_tree(frequencies):
         f1, n1 = heapq.heappop(nodes)
         f2, n2 = heapq.heappop(nodes)
         node = Node_Book('*', left=n1, right=n2)
-        heapq.heappush(nodes, (f1+f2, node))
+        heapq.heappush(nodes, (f1 + f2, node))
 
     root = nodes[0][1]
     return root
+
 
 def encode(root, string="", mapping=None):
     if mapping is None:
@@ -105,17 +125,22 @@ def encode(root, string="", mapping=None):
 
     return mapping
 
+
 '''                             Test Cases                               '''
 
 
 def main():
+    # My Examples
     freq_map = create_freq_map(["cats", "bats", "ball", "test", "this", "he"])
-    huff_tree = huffman_tree(freq_map)
+    print(freq_map)
 
-    book_huff_tree = build_tree({'a':3, 'c':6, 'e':8, 'f':2})
-    print(book_huff_tree)
-    print(book_huff_tree.left)
-    print(book_huff_tree.right)
+    huff_tree = huffman_tree(freq_map)
+    print(sorted(freq_map, key=freq_map.get, reverse=True))
+    print(my_encode(huff_tree))
+
+    # Book Examples
+    book_huff_tree = build_tree({'a': 3, 'c': 6, 'e': 8, 'f': 2})
+    print(encode(huff_tree))
     print(encode(book_huff_tree))
 
 
