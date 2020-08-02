@@ -22,7 +22,7 @@ The general format will be:
 5. [Hash Tables](https://github.com/JSheldon3488/Daily_Coding_Problems/tree/master/Chapter5_Hash_Tables)
 6. [Trees](https://github.com/JSheldon3488/Daily_Coding_Problems/tree/master/Chapter6_Trees)
 7. [Binary Search Trees](https://github.com/JSheldon3488/Daily_Coding_Problems/tree/master/Chapter7_Binary_Search_Trees)
-8. Tries
+8. [Tries](https://github.com/JSheldon3488/Daily_Coding_Problems/tree/master/Chapter8_Tries)
 9. Heaps
 10. Graphs
 11. Advanced Data Structures
