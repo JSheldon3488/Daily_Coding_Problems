@@ -24,7 +24,7 @@ The general format will be:
 7. [Binary Search Trees](https://github.com/JSheldon3488/Daily_Coding_Problems/tree/master/Chapter7_Binary_Search_Trees)
 8. [Tries](https://github.com/JSheldon3488/Daily_Coding_Problems/tree/master/Chapter8_Tries)
 9. [Heaps](https://github.com/JSheldon3488/Daily_Coding_Problems/tree/master/Chapter9_Heaps)
-10. Graphs
+10. [Graphs](https://github.com/JSheldon3488/Daily_Coding_Problems/tree/master/Chapter10_Graphs)
 11. Advanced Data Structures
 
 ### II. Algorithms
