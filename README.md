@@ -21,11 +21,11 @@ The general format will be:
 4. [Stacks and Queues](https://github.com/JSheldon3488/Daily_Coding_Problems/tree/master/Chapter4_Stacks_and_Queues)
 5. [Hash Tables](https://github.com/JSheldon3488/Daily_Coding_Problems/tree/master/Chapter5_Hash_Tables)
 6. [Trees](https://github.com/JSheldon3488/Daily_Coding_Problems/tree/master/Chapter6_Trees)
-7. Binary Search Trees
-8. Tries
-9. Heaps
-10. Graphs
-11. Advanced Data Structures
+7. [Binary Search Trees](https://github.com/JSheldon3488/Daily_Coding_Problems/tree/master/Chapter7_Binary_Search_Trees)
+8. [Tries](https://github.com/JSheldon3488/Daily_Coding_Problems/tree/master/Chapter8_Tries)
+9. [Heaps](https://github.com/JSheldon3488/Daily_Coding_Problems/tree/master/Chapter9_Heaps)
+10. [Graphs](https://github.com/JSheldon3488/Daily_Coding_Problems/tree/master/Chapter10_Graphs)
+11. [Advanced Data Structures](https://github.com/JSheldon3488/Daily_Coding_Problems/tree/master/Chapter11_Advanced_Data_Structures)
 
 ### II. Algorithms
 12. Recursion
