@@ -31,7 +31,7 @@ The general format will be:
 12. [Recursion](https://github.com/JSheldon3488/Daily_Coding_Problems/tree/master/Chapter12_Recursion)
 13. [Dynamic Programming](https://github.com/JSheldon3488/Daily_Coding_Problems/tree/master/Chapter13_Dynamic_Programming)
 14. [Backtracking](https://github.com/JSheldon3488/Daily_Coding_Problems/tree/master/Chapter14_Backtracking)
-15. Sorting and Searching
+15. [Sorting and Searching](https://github.com/JSheldon3488/Daily_Coding_Problems/tree/master/Chapter15_Sorting_and_Searching)
 16. Pathfinding
 17. Bit Manipulation
 18. Randomized Algorithms
