@@ -28,10 +28,10 @@ The general format will be:
 11. [Advanced Data Structures](https://github.com/JSheldon3488/Daily_Coding_Problems/tree/master/Chapter11_Advanced_Data_Structures)
 
 ### II. Algorithms
-12. Recursion
-13. Dynamic Programming
-14. Backtracking
-15. Sorting and Searching
+12. [Recursion](https://github.com/JSheldon3488/Daily_Coding_Problems/tree/master/Chapter12_Recursion)
+13. [Dynamic Programming](https://github.com/JSheldon3488/Daily_Coding_Problems/tree/master/Chapter13_Dynamic_Programming)
+14. [Backtracking](https://github.com/JSheldon3488/Daily_Coding_Problems/tree/master/Chapter14_Backtracking)
+15. [Sorting and Searching](https://github.com/JSheldon3488/Daily_Coding_Problems/tree/master/Chapter15_Sorting_and_Searching)
 16. Pathfinding
 17. Bit Manipulation
 18. Randomized Algorithms
