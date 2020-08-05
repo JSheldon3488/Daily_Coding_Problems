@@ -91,4 +91,6 @@ Lessons Learned:
     * using in for a list could get very expensive if the graph is very large. Dictionary better
     * Their algorithm is wrong although it does appear to be similar to ones I am seeing online so maybe I am misunderstanding 
         what a cycle is.
+        ** I did solve the wrong problem I solved the problem as if it was a directed graph. Their solution makes sense
+        with undirected graph
 '''
