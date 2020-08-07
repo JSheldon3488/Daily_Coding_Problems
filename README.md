@@ -32,10 +32,10 @@ The general format will be:
 13. [Dynamic Programming](https://github.com/JSheldon3488/Daily_Coding_Problems/tree/master/Chapter13_Dynamic_Programming)
 14. [Backtracking](https://github.com/JSheldon3488/Daily_Coding_Problems/tree/master/Chapter14_Backtracking)
 15. [Sorting and Searching](https://github.com/JSheldon3488/Daily_Coding_Problems/tree/master/Chapter15_Sorting_and_Searching)
-16. Pathfinding
-17. Bit Manipulation
-18. Randomized Algorithms
-19. Advanced Algorithms
+16. [Pathfinding](https://github.com/JSheldon3488/Daily_Coding_Problems/tree/master/Chapter16_Pathfinding)
+17. [Bit Manipulation](https://github.com/JSheldon3488/Daily_Coding_Problems/tree/master/Chapter17_Bit_Manipulation)
+18. [Randomized Algorithms](https://github.com/JSheldon3488/Daily_Coding_Problems/tree/master/Chapter18_Randomized_Algorithms)
+19. [Advanced Algorithms](https://github.com/JSheldon3488/Daily_Coding_Problems/tree/master/Chapter19_Advanced_Algorithms)
 
 ### III. Applications
 20. Applications
