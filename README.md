@@ -41,5 +41,5 @@ The general format will be:
 20. [Applications](https://github.com/JSheldon3488/Daily_Coding_Problems/tree/master/Chapter20_Applications)
 
 ### IV. Design
-21. Data Structure Design
+21. [Data Structure Design](https://github.com/JSheldon3488/Daily_Coding_Problems/tree/master/Chapter21_Data_Structure_Design)
 22. System Design
