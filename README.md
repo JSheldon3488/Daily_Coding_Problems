@@ -42,4 +42,4 @@ The general format will be:
 
 ### IV. Design
 21. [Data Structure Design](https://github.com/JSheldon3488/Daily_Coding_Problems/tree/master/Chapter21_Data_Structure_Design)
-22. System Design
+22. [System Design](https://github.com/JSheldon3488/Daily_Coding_Problems/tree/master/Chapter22_System_Design)
