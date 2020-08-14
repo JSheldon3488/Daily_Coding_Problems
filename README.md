@@ -38,8 +38,8 @@ The general format will be:
 19. [Advanced Algorithms](https://github.com/JSheldon3488/Daily_Coding_Problems/tree/master/Chapter19_Advanced_Algorithms)
 
 ### III. Applications
-20. Applications
+20. [Applications](https://github.com/JSheldon3488/Daily_Coding_Problems/tree/master/Chapter20_Applications)
 
 ### IV. Design
-21. Data Structure Design
-22. System Design
+21. [Data Structure Design](https://github.com/JSheldon3488/Daily_Coding_Problems/tree/master/Chapter21_Data_Structure_Design)
+22. [System Design](https://github.com/JSheldon3488/Daily_Coding_Problems/tree/master/Chapter22_System_Design)
