@@ -91,7 +91,7 @@ Lessons Learned:
     * Also inefficient because you can go forward in the string you do not need to call the reversed function on range
     * The <= 26 makes this solution more efficient BUT it is a hard coded magic number which means that if the mapping changes
         this solution breaks. Using in mappings is slower but it allows for more versatility and if the mapping changes then
-        the solution will still work.
+        the solution will still work..
         ** Actually key in dict is O(1) amortized so its almost as fast as the <= check (still need to hash the key which takes time)
 '''
 
